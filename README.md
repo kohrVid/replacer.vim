@@ -40,6 +40,11 @@ Rename files:
     :Rename "old_file", "new_file"
     :Rename "old_file", "new_file", "./path/to/file/"
 
+Find and replace terms in a directory:
+
+    :FindAndReplace "old_term", "new_term"
+    :FindAndReplace "old_term", "new_term", "./path/to/file/"
+
 ## Mappings
 
 ## License
