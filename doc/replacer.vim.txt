@@ -7,7 +7,7 @@ CONTENTS                                              *replacer.vim-contents*
     1.1. Prerequisites...........................|replacer.vim-prerequisites|
     1.2. Installation.............................|replacer.vim-installation|
     1.3. Usage...........................................|replacer.vim-usage|
-    1.4. Mappings.....................................|replacer.vim-mappings|
+    1.4. Commands.....................................|replacer.vim-commands|
     1.5. License.......................................|replacer.vim-license|
     1.6. Bugs.............................................|replacer.vim-bugs|
     1.7. Contributing.............................|replacer.vim-contributing|
@@ -47,14 +47,14 @@ USAGE                                                    *replacer.vim-usage*
 
 Rename directories:
 >
-    :Rename "old_directory", "new_directory"
-    :Rename "old_directory", "new_directory", "./path/to/directory/"
+    :RenameDirs "old_directory", "new_directory"
+    :RenameDirs "old_directory", "new_directory", "./path/to/directory/"
 <
 
 Rename files:
 >
-    :Rename "old_file", "new_file"
-    :Rename "old_file", "new_file", "./path/to/file/"
+    :RenameFiles "old_file", "new_file"
+    :RenameFiles "old_file", "new_file", "./path/to/file/"
 <
 
 Find and replace terms in a directory:
@@ -64,7 +64,33 @@ Find and replace terms in a directory:
 <
 
 ---------------------------------------------------------------------------
-MAPPINGS                                              *replacer.vim-mappings*
+COMMANDS                                              *replacer.vim-commands*
+
+*:FindAndReplace* [args]      `FindAndReplace` finds instances of the first
+                            argument across multiple files and replaces it
+                            with the second argument. By default, find and
+                            replace is run across all visible files in the
+                            current project directory. If needed a different
+                            relative file path can be specified as a third
+                            argument. To prevent issues with git, the
+                            command cannot alter hidden files.
+
+*:RenameDirs* [args]          `RenameDirs` recursively renames directories in
+                            a relative path. By default, it renames
+                            subdirectories of the current project's location
+                            by replacing instances of the first argument
+                            with the second argument in the new directory
+                            name. If needed, a different path to the
+                            directories can be specified as a third
+                            argument.
+
+*:RenameFiles* [args]         `RenameFiles` recursively renames files at
+                            a relative path. By default, it renames files
+                            located in the current directory (and its
+                            subdirectories) by replacing instances of the
+                            first argument with the second argument in the
+                            new file name. If needed, a different path to
+                            the file can be specified as a third argument.
 
 ---------------------------------------------------------------------------
 LICENSE                                                *replacer.vim-license*

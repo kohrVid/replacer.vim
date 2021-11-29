@@ -1,0 +1,4 @@
+:FindAndReplace	replacer.vim.txt	/*:FindAndReplace*
+:RenameDirs	replacer.vim.txt	/*:RenameDirs*
+:RenameFiles	replacer.vim.txt	/*:RenameFiles*
+replacer.vim	replacer.vim.txt	/^
