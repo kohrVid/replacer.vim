@@ -31,10 +31,15 @@ Any changes to the vimdocs will require:
 
 ## Installation
 
-To install this plugin with Pathogen:
+To install this plugin with [Pathogen](https://github.com/tpope/vim-pathogen):
 
     cd $HOME/.vim/bundle/
     git clone https://github.com/kohrVid/replacer.vim.git
+
+To install with [Vim-Plug](https://github.com/junegunn/vim-plug), add the
+following to `~/.vimrc` or `init.vim` and then restart vim:
+
+    Plug 'kohrVid/replacer.vim'
 
 ## Usage
 
