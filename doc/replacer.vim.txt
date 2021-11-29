@@ -13,7 +13,6 @@ CONTENTS                                              *replacer.vim-contents*
     1.7. Contributing.............................|replacer.vim-contributing|
         1.7.1. Documentation.....................|replacer.vim-documentation|
     1.8. Changelog...................................|replacer.vim-changelog|
-    1.9. Credits.......................................|replacer.vim-credits|
 
 ===========================================================================
 REPLACER.VIM                                      *replacer.vim-replacer.vim*
@@ -95,7 +94,8 @@ COMMANDS                                              *replacer.vim-commands*
 ---------------------------------------------------------------------------
 LICENSE                                                *replacer.vim-license*
 
-Copyright © 2021 Jessica Été. Distributed under the MIT license.
+Copyright © 2021 Jessica Été. Distributed under the
+MIT license (https://github.com/kohrVid/replacer.vim/blob/master/LICENSE).
 
 ---------------------------------------------------------------------------
 BUGS                                                      *replacer.vim-bugs*
@@ -103,16 +103,17 @@ BUGS                                                      *replacer.vim-bugs*
 ---------------------------------------------------------------------------
 CONTRIBUTING                                      *replacer.vim-contributing*
 
+Please raise a pull request if you would like to contribute.
+
 DOCUMENTATION                                    *replacer.vim-documentation*
 
-To generate new documentation, run the following:
+All changes to the vimdocs must be made in the appropriate section of this
+README first. Once that is done, the following script must be run to update the
+vimdocs:
 >
     ./doc/generate_vimdoc.sh
 <
 
 ---------------------------------------------------------------------------
 CHANGELOG                                            *replacer.vim-changelog*
-
----------------------------------------------------------------------------
-CREDITS                                                *replacer.vim-credits*
 

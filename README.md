@@ -13,7 +13,6 @@ This plugin will help users find and replace terms in a given folder.
 * [Contributing](#contributing)
   * [Documentation](#documentation)
 * [Changelog](#changelog)
-* [Credits](#credits)
 
 <!-- vim-markdown-toc -->
 
@@ -84,16 +83,21 @@ Find and replace terms in a directory:
 
 ## License
 
-Copyright © 2021 Jessica Été. Distributed under the MIT license.
+Copyright © 2021 Jessica Été. Distributed under the
+[MIT license](https://github.com/kohrVid/replacer.vim/blob/master/LICENSE).
 
 ## Bugs
+
 ## Contributing
+
+Please raise a pull request if you would like to contribute.
 
 ### Documentation
 
-To generate new documentation, run the following:
+All changes to the vimdocs must be made in the appropriate section of this
+README first. Once that is done, the following script must be run to update the
+vimdocs:
 
     ./doc/generate_vimdoc.sh
 
 ## Changelog
-## Credits
