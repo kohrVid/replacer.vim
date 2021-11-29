@@ -11,6 +11,7 @@ This plugin will help users find and replace terms in a given folder.
 * [License](#license)
 * [Bugs](#bugs)
 * [Contributing](#contributing)
+  * [Documentation](#documentation)
 * [Changelog](#changelog)
 * [Credits](#credits)
 
@@ -20,6 +21,13 @@ This plugin will help users find and replace terms in a given folder.
 
 * A machine with a [UNIX-like operating system](https://en.wikipedia.org/wiki/Unix)
 * [vim](https://www.vim.org/)
+
+For hacking:
+
+Any updates to the documentation will require:
+
+  * [go](https://golang.org)
+  * [md2vim](https://github.com/FooSoft/md2vim) (`go install github.com/FooSoft/md2vim@latest`)
 
 ## Installation
 
@@ -53,5 +61,12 @@ Copyright © 2021 Jessica Été. Distributed under the MIT license.
 
 ## Bugs
 ## Contributing
+
+### Documentation
+
+To generate new documentation, run the following:
+
+    ./doc/generate_vimdoc.sh
+
 ## Changelog
 ## Credits

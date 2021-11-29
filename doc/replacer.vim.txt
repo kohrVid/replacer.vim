@@ -1,0 +1,92 @@
+replacer.vim.txt
+
+===========================================================================
+CONTENTS                                              *replacer.vim-contents*
+
+1. replacer.vim...................................|replacer.vim-replacer.vim|
+    1.1. Prerequisites...........................|replacer.vim-prerequisites|
+    1.2. Installation.............................|replacer.vim-installation|
+    1.3. Usage...........................................|replacer.vim-usage|
+    1.4. Mappings.....................................|replacer.vim-mappings|
+    1.5. License.......................................|replacer.vim-license|
+    1.6. Bugs.............................................|replacer.vim-bugs|
+    1.7. Contributing.............................|replacer.vim-contributing|
+        1.7.1. Documentation.....................|replacer.vim-documentation|
+    1.8. Changelog...................................|replacer.vim-changelog|
+    1.9. Credits.......................................|replacer.vim-credits|
+
+===========================================================================
+REPLACER.VIM                                      *replacer.vim-replacer.vim*
+
+This plugin will help users find and replace terms in a given folder.
+
+---------------------------------------------------------------------------
+PREREQUISITES                                    *replacer.vim-prerequisites*
+
+*   A machine with a UNIX-like operating system (https://en.wikipedia.org/wiki/Unix)
+*   vim (https://www.vim.org/)
+
+For hacking:
+
+Any updates to the documentation will require:
+
+*   go (https://golang.org)
+*   md2vim (https://github.com/FooSoft/md2vim) (`go install github.com/FooSoft/md2vim@latest`)
+
+---------------------------------------------------------------------------
+INSTALLATION                                      *replacer.vim-installation*
+
+To install this plugin with Pathogen:
+>
+    cd $HOME/.vim/bundle/
+    git clone https://github.com/kohrVid/replacer.vim.git
+<
+
+---------------------------------------------------------------------------
+USAGE                                                    *replacer.vim-usage*
+
+Rename directories:
+>
+    :Rename "old_directory", "new_directory"
+    :Rename "old_directory", "new_directory", "./path/to/directory/"
+<
+
+Rename files:
+>
+    :Rename "old_file", "new_file"
+    :Rename "old_file", "new_file", "./path/to/file/"
+<
+
+Find and replace terms in a directory:
+>
+    :FindAndReplace "old_term", "new_term"
+    :FindAndReplace "old_term", "new_term", "./path/to/file/"
+<
+
+---------------------------------------------------------------------------
+MAPPINGS                                              *replacer.vim-mappings*
+
+---------------------------------------------------------------------------
+LICENSE                                                *replacer.vim-license*
+
+Copyright © 2021 Jessica Été. Distributed under the MIT license.
+
+---------------------------------------------------------------------------
+BUGS                                                      *replacer.vim-bugs*
+
+---------------------------------------------------------------------------
+CONTRIBUTING                                      *replacer.vim-contributing*
+
+DOCUMENTATION                                    *replacer.vim-documentation*
+
+To generate new documentation, run the following:
+>
+    ./doc/generate_vimdoc.sh
+<
+
+---------------------------------------------------------------------------
+CHANGELOG                                            *replacer.vim-changelog*
+
+---------------------------------------------------------------------------
+CREDITS                                                *replacer.vim-credits*
+
