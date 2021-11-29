@@ -5,6 +5,7 @@ This plugin will help users find and replace terms in a given folder.
 <!-- vim-markdown-toc GFM -->
 
 * [Prerequisites](#prerequisites)
+  * [For hacking](#for-hacking)
 * [Installation](#installation)
 * [Usage](#usage)
 * [Commands](#commands)
@@ -19,11 +20,11 @@ This plugin will help users find and replace terms in a given folder.
 ## Prerequisites
 
 * A machine with a [UNIX-like operating system](https://en.wikipedia.org/wiki/Unix)
-* [vim](https://www.vim.org/)
+* [vim](https://www.vim.org/) (Note, this plugin has only been tested on v8.2)
 
-For hacking:
+### For hacking
 
-Any updates to the documentation will require:
+Any changes to the vimdocs will require:
 
   * [go](https://golang.org)
   * [md2vim](https://github.com/FooSoft/md2vim) (`go install github.com/FooSoft/md2vim@latest`)
@@ -54,7 +55,7 @@ Find and replace terms in a directory:
 
 ## Commands
 
-\*:FindAndReplace\* [args]      `FindAndReplace` finds instances of the first
+**\*:FindAndReplace\*** _[args]_      `FindAndReplace` finds instances of the first
                             argument across multiple files and replaces it
                             with the second argument. By default, find and
                             replace is run across all visible files in the
@@ -63,7 +64,7 @@ Find and replace terms in a directory:
                             argument. To prevent issues with git, the
                             command cannot alter hidden files.
 
-\*:RenameDirs\* [args]          `RenameDirs` recursively renames directories in
+**\*:RenameDirs\*** _[args]_          `RenameDirs` recursively renames directories in
                             a relative path. By default, it renames
                             subdirectories of the current project's location
                             by replacing instances of the first argument
@@ -72,7 +73,7 @@ Find and replace terms in a directory:
                             directories can be specified as a third
                             argument.
 
-\*:RenameFiles\* [args]         `RenameFiles` recursively renames files at
+**\*:RenameFiles\*** _[args]_         `RenameFiles` recursively renames files at
                             a relative path. By default, it renames files
                             located in the current directory (and its
                             subdirectories) by replacing instances of the
@@ -87,6 +88,8 @@ Copyright © 2021 Jessica Été. Distributed under the
 [MIT license](https://github.com/kohrVid/replacer.vim/blob/master/LICENSE).
 
 ## Bugs
+
+Please raise an issue if any bugs are spotted whilst using this plugin.
 
 ## Contributing
 

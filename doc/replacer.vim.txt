@@ -5,6 +5,7 @@ CONTENTS                                              *replacer.vim-contents*
 
 1. replacer.vim...................................|replacer.vim-replacer.vim|
     1.1. Prerequisites...........................|replacer.vim-prerequisites|
+        1.1.1. For hacking.........................|replacer.vim-for_hacking|
     1.2. Installation.............................|replacer.vim-installation|
     1.3. Usage...........................................|replacer.vim-usage|
     1.4. Commands.....................................|replacer.vim-commands|
@@ -23,11 +24,11 @@ This plugin will help users find and replace terms in a given folder.
 PREREQUISITES                                    *replacer.vim-prerequisites*
 
 *   A machine with a UNIX-like operating system (https://en.wikipedia.org/wiki/Unix)
-*   vim (https://www.vim.org/)
+*   vim (https://www.vim.org/) (Note, this plugin has only been tested on v8.2)
 
-For hacking:
+FOR HACKING                                        *replacer.vim-for_hacking*
 
-Any updates to the documentation will require:
+Any changes to the vimdocs will require:
 
 *   go (https://golang.org)
 *   md2vim (https://github.com/FooSoft/md2vim) (`go install github.com/FooSoft/md2vim@latest`)
@@ -99,6 +100,8 @@ MIT license (https://github.com/kohrVid/replacer.vim/blob/master/LICENSE).
 
 ---------------------------------------------------------------------------
 BUGS                                                      *replacer.vim-bugs*
+
+Please raise an issue if any bugs are spotted whilst using this plugin.
 
 ---------------------------------------------------------------------------
 CONTRIBUTING                                      *replacer.vim-contributing*
